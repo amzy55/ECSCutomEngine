@@ -12,3 +12,4 @@ After creating the baseline architecture of the engine, I created an **Ability S
 
 This project includes elements from the Bee engine @[BUas](https://github.com/BredaUniversityGames).
 
+*There is no commit history because the original repository was private due to NDA content. I have since removed that content and created this public repository.*
