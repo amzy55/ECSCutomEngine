@@ -1,0 +1,25 @@
+BasedOnStyle: Google
+Standard: c++17
+SortIncludes: false
+IndentWidth: 4
+SortUsingDeclarations: true
+SpacesBeforeTrailingComments: 1
+IncludeBlocks: Regroup # <-- to split include blocks between "" and <>
+AllowAllArgumentsOnNextLine: true
+AllowAllConstructorInitializersOnNextLine: true
+AllowAllParametersOfDeclarationOnNextLine: true
+AccessModifierOffset: -4
+AlignAfterOpenBracket: AlwaysBreak
+BreakBeforeBraces: Allman
+ReflowComments: true
+ColumnLimit: 128
+AllowShortBlocksOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: Never
+SpacesInLineCommentPrefix:
+  Minimum: 0
+  Maximum: -1
+BraceWrapping:
+  AfterFunction: true
+  AfterControlStatement: true
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false

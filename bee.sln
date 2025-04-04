@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bee", "bee.vcxproj", "{A5D06FEC-7FCB-4AF8-B043-6D92D6B99695}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E6379495-8F9E-49C3-A1AA-60709D1F6378} = {E6379495-8F9E-49C3-A1AA-60709D1F6378}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lua", "external\lua\lua.vcxproj", "{E6379495-8F9E-49C3-A1AA-60709D1F6378}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5D06FEC-7FCB-4AF8-B043-6D92D6B99695}.Debug|x64.ActiveCfg = Debug|x64
+		{A5D06FEC-7FCB-4AF8-B043-6D92D6B99695}.Debug|x64.Build.0 = Debug|x64
+		{A5D06FEC-7FCB-4AF8-B043-6D92D6B99695}.Release|x64.ActiveCfg = Release|x64
+		{A5D06FEC-7FCB-4AF8-B043-6D92D6B99695}.Release|x64.Build.0 = Release|x64
+		{E6379495-8F9E-49C3-A1AA-60709D1F6378}.Debug|x64.ActiveCfg = Debug|x64
+		{E6379495-8F9E-49C3-A1AA-60709D1F6378}.Debug|x64.Build.0 = Debug|x64
+		{E6379495-8F9E-49C3-A1AA-60709D1F6378}.Release|x64.ActiveCfg = Release|x64
+		{E6379495-8F9E-49C3-A1AA-60709D1F6378}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C7F1DF0-DFEE-4342-80E8-F52AFF3E55F5}
+	EndGlobalSection
+EndGlobal
